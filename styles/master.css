@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap');
+body{
+    font-family:'Grape Nuts';
+}
+nav{
+  
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.title{
+    color: green;
+}
+
+
+.list{
+    display: inline;
+    margin: 2mm;
+    padding-right: 2px;
+    font-size: medium;
+    border: 1px solid yellow;
+}
+.link{
+    color: black;
+    text-decoration: none;
+}
+/* landing page section css  */
+.landing_section{
+    background: url('../images/bg.jpg');
+    background-color: red;
+    background-size: cover;
+}
+.content{
+    text-align: center;
+    padding: 15rem;
+   
+}
+.content_subheading{
+    color: green;
+
+}
+.btn-primary{
+ background-color: green;
+ color: ghostwhite;
+ margin: auto;
+ padding: 9px;
+ border: none;
+ border-radius: 15px;
+ font-size: 1rem;
+}
