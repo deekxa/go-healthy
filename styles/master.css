@@ -3,10 +3,13 @@ body{
     font-family:'Grape Nuts';
 }
 nav{
-  
+  position: sticky;
+  top: 0;
+
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: white;
 }
 
 
@@ -70,22 +73,90 @@ nav{
     justify-content: center;
     
 }
+
 .left img{
     width: 500px;
     height: 250px;
 
-
-    
     
 }
+.image2info{
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    margin-top: 10%;
+
+}
+.highlighted2_text{
+    color: green;
+    
+}
+.leftimage{
+    width: 500px;
+    height: 250px;
+}
+
 .right
 {
     width: 30%;
     
     
 }
+.mealplan{
+    text-align: center;
 
+}
+.link:hover{
+    color: brown;
+}
+.picture_info{
+    display: flex;
+    justify-content: space-around;
+    background: url(../images/bgimg2.jpg);
+    background-repeat:no-repeat;
+background-position-x:100px;
+background-position-y: 460px;
+padding-bottom: 100px;
+padding-right: 50px;
+margin-bottom: 20px;
 
+   
+}
+.right_part{
+display: grid;
+grid-template-columns: auto auto;
+gap: 25px;
+}
 
+.left_part{
+    width: 360px;
+    padding: 20px;
+    font-size: 30px;
+  
+    
+ 
+   
 
+}
+.tero_tauko{
+    background-color: rgba(220, 206, 206, 0.93);
+    position: absolute;
+    bottom: -20px;
+    left: -15px;
+    padding: 12px 12px;
+    border-radius: 15px;
+
+}
+.jheu_lagyo{
+    position: relative;
+    box-shadow: -11px 14px 16px -3px rgba(0,0,0,1);
+-webkit-box-shadow: -11px 14px 16px -3px rgba(0,0,0,1);
+-moz-box-shadow: -11px 14px 16px -3px rgba(0,0,0,1);
+
+}
+
+.txt_txt{
+    text-align: justify;
+} 
     
