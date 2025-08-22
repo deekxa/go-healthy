@@ -1,0 +1,134 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Go Healthy</title>
+    <link rel="stylesheet" href="./styles/master.css">
+    <style>
+        .team-section {
+            padding: 50px 20px;
+            background-color: #f9f9f9;
+            text-align: center;
+        }
+
+        .team-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+            max-width: 1200px;
+            margin: 40px auto;
+        }
+
+        .team-member {
+            background: white;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .team-member img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 15px;
+        }
+
+        .stats-section {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            padding: 40px 20px;
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+        }
+
+        .stat-item h2 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .about-banner {
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./images/bg.jpg');
+            background-size: cover;
+            color: white;
+            padding: 100px 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navigation menu starts -->
+    <nav>
+        <h1 class="title">Go Healthy</h1>
+        <ul>
+            <li class="list">
+                <a href="./index.html" class="link">Home</a>
+            </li>
+            <li class="list">
+                <a href="./about.html" class="link">About us</a>
+            </li>
+            <li class="list">
+                <a href="./dietplan.html" class="link">Diet Plan</a>
+            </li>
+            <li class="list">
+                <a href="./yogaandmeditation.html" class="link">Yoga & Meditation</a>
+            </li>
+        </ul>
+    </nav>
+
+    <section class="about-banner">
+        <h1>Transforming Lives Since 2020</h1>
+        <p>Making healthy living accessible to everyone</p>
+    </section>
+
+    <section class="stats-section">
+        <div class="stat-item">
+            <h2>5K+</h2>
+            <p>Happy Clients</p>
+        </div>
+        <div class="stat-item">
+            <h2>200+</h2>
+            <p>Expert Trainers</p>
+        </div>
+        <div class="stat-item">
+            <h2>1000+</h2>
+            <p>Healthy Recipes</p>
+        </div>
+        <div class="stat-item">
+            <h2>15+</h2>
+            <p>Years Experience</p>
+        </div>
+    </section>
+
+    <section class="team-section">
+        <h1>Meet Our <span class="highlighted_text">Experts</span></h1>
+        <div class="team-grid">
+            <div class="team-member">
+                <img src="./images/snack.jpg" alt="Nutrition Expert">
+                <h3>Dr. Sarah Johnson</h3>
+                <p>Head Nutritionist</p>
+                <p>15+ years helping people achieve their nutrition goals</p>
+            </div>
+            <div class="team-member">
+                <img src="./images/food.png" alt="Fitness Expert">
+                <h3>Mike Thompson</h3>
+                <p>Fitness Director</p>
+                <p>Certified personal trainer with focus on holistic fitness</p>
+            </div>
+            <div class="team-member">
+                <img src="./images/food2.png" alt="Wellness Expert">
+                <h3>Lisa Chen</h3>
+                <p>Wellness Coach</p>
+                <p>Expert in mindfulness and stress management</p>
+            </div>
+        </div>
+    </section>
+
+    <script src="./js/master.js"></script>
+</body>
+
+</html>
